@@ -74,6 +74,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+## CTF toolbox
 alias ss='searchsploit $1'
 alias ssx='searchsploit -x $1'
 alias ssm='searchsploit -m $1'
