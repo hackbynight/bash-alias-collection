@@ -21,7 +21,7 @@ alias nfsrestart='sync && sleep 2 && /etc/init.d/httpd stop && umount netapp2:/e
 alias mcdstats='/usr/bin/memcached-tool 10.10.27.11:11211 stats'
 alias mcdshow='/usr/bin/memcached-tool 10.10.27.11:11211 display'
  
-## quickly flush out memcached server ##
+## quickly flush out memcached server ###
 alias flushmcd='echo "flush_all" | nc 10.10.27.11 11211'
  
 ## Remove assets quickly from Akamai / Amazon cdn ##
